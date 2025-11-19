@@ -15,10 +15,31 @@ module.exports = (webpackConfigEnv, argv) => {
 
   defaultConfig.externals = ['single-spa', new RegExp(`^@${orgName}/`)];
 
-  console.log("Default: ", defaultConfig)
+  defaultConfig.module.rules = defaultConfig.module.rules.filter(
+    (rule) => !rule.test?.toString().includes("css")
+  );
+
+  console.log("Default: ", defaultConfig);
 
   return merge(defaultConfig, {
-    externals: [],
+    module: {
+      rules: [
+        {
+          test: /\.css$/i,
+          use: [
+            "style-loader",
+            {
+              loader: "css-loader",
+              options: {
+                importLoaders: 1,
+                modules: false,
+              },
+            },
+            "postcss-loader",
+          ],
+        },
+      ],
+    },
     devServer: {
       port: 3001,
       historyApiFallback: true,
