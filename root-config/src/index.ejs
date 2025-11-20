@@ -20,6 +20,7 @@
     }
   </script>
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@6.0.3/lib/es2015/esm/single-spa.min.js" as="module">
+  <script src="https://cdn.jsdelivr.net/npm/zone.js@0.16.0/+esm"></script>
 
   <!-- Add your organization's prod import map URL to this script's src  -->
   <!-- <script type="injector-importmap" src="/importmap.json"></script> -->
@@ -29,7 +30,8 @@
     {
       "imports": {
         "@ecom-micro-frontend/root-config": "//localhost:3000/ecom-micro-frontend-root-config.js",
-        "@ecom-micro-frontend/products": "//localhost:3001/ecom-micro-frontend-products.js"
+        "@ecom-micro-frontend/products": "//localhost:3001/ecom-micro-frontend-products.js",
+        "@ecom-micro-frontend/cart": "//localhost:3002/ecom-micro-frontend-cart.js"
       }
     }
   </script>

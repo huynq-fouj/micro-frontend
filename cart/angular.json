@@ -16,7 +16,8 @@
         "build": {
           "builder": "@angular-builders/custom-webpack:browser",
           "options": {
-            "browser": "src/main.ts",
+            "outputPath": "dist/cart",
+            "index": "src/index.html",
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -31,7 +32,7 @@
             "customWebpackConfig": {
               "path": "extra-webpack.config.js",
               "libraryName": "cart",
-              "libraryTarget": "umd"
+              "libraryTarget": "module"
             },
             "deployUrl": "http://localhost:3002/"
           },
@@ -55,7 +56,13 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true,
-              "outputHashing": "none"
+              "outputHashing": "none",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.development.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
