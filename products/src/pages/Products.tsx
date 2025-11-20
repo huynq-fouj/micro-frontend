@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { PRODUCTS } from "../shared/constants/products";
 import { ProductType } from "../shared/types/product";
-import ProductList from "../shared/components/ProductList";
+import ProductGrid from "../shared/components/ProductGrid";
 
 export default function Products() {
 
@@ -12,9 +12,9 @@ export default function Products() {
     }, []);
 
     return (
-        <section className="products-container container mx-auto">
-            <h2 className="text-4xl mb-5 text-sky-600">Danh sách sản phẩm</h2>
-            <ProductList products={products}/>
+        <section className="products-container container mx-auto py-8">
+            <h2 className="text-4xl mb-5 text-orange-600 font-semibold">Danh sách sản phẩm</h2>
+            <ProductGrid products={products}/>
         </section>
     )
 }

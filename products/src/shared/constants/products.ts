@@ -4,7 +4,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 1,
     name: "Sữa tươi Vinamilk 1L",
-    image: "/images/p1.jpg",
+    image: "https://i.pinimg.com/1200x/e6/f3/8a/e6f38aac5ab9b91aa5693a20ceef69ab.jpg",
     onHand: 120,
     description: "Sữa tươi tiệt trùng Vinamilk không đường 1L.",
     salePrice: 32000,
@@ -14,7 +14,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 2,
     name: "Trà xanh Không Độ",
-    image: "/images/p2.jpg",
+    image: "https://i.pinimg.com/1200x/cb/f3/84/cbf38429029df202b2a9c5b7cbc6f2a2.jpg",
     onHand: 85,
     description: "Nước giải khát trà xanh hương chanh.",
     salePrice: 9000,
@@ -24,7 +24,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 3,
     name: "Mì Hảo Hảo Tôm Chua Cay",
-    image: "/images/p3.jpg",
+    image: "https://i.pinimg.com/1200x/91/05/d2/9105d263693481022eea4b8cecacd404.jpg",
     onHand: 300,
     description: "Mì ăn liền Hảo Hảo hương tôm chua cay.",
     salePrice: 3500,
@@ -33,7 +33,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 4,
     name: "Gạo ST25 5kg",
-    image: "/images/p4.jpg",
+    image: "https://i.pinimg.com/1200x/8f/a4/d2/8fa4d2b5678790c845932e6290dde9ae.jpg",
     onHand: 50,
     description: "Gạo thơm thượng hạng ST25.",
     salePrice: 135000,
@@ -42,7 +42,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 5,
     name: "Dầu ăn Tường An 1L",
-    image: "/images/p5.jpg",
+    image: "https://i.pinimg.com/1200x/f8/68/75/f868759a443f69b8b39ba98e1a4a2c69.jpg",
     onHand: 75,
     description: "Dầu ăn truyền thống Tường An loại 1 lít.",
     salePrice: 42000,
@@ -52,7 +52,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 6,
     name: "Nước mắm Nam Ngư 500ml",
-    image: "/images/p6.jpg",
+    image: "https://i.pinimg.com/1200x/f1/4d/4c/f14d4c21ad5dbd63b9cb8fc6bbd88aaa.jpg  ",
     onHand: 62,
     description: "Nước mắm Nam Ngư độ đạm 12°.",
     salePrice: 21000,
@@ -61,7 +61,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 7,
     name: "Bánh Oreo Original",
-    image: "/images/p7.jpg",
+    image: "https://i.pinimg.com/1200x/5f/73/4a/5f734ac457392dc779ceb38cdb4c7f5f.jpg",
     onHand: 90,
     description: "Bánh quy kẹp kem Oreo truyền thống.",
     salePrice: 11000,
@@ -71,7 +71,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 8,
     name: "Coca-Cola lon 330ml",
-    image: "/images/p8.jpg",
+    image: "https://i.pinimg.com/1200x/da/a3/68/daa36860deb87387d8f234bc2389ff42.jpg",
     onHand: 150,
     description: "Nước ngọt Coca-Cola lon 330ml.",
     salePrice: 8500,
@@ -80,7 +80,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 9,
     name: "Trứng gà CP hộp 10 quả",
-    image: "/images/p9.jpg",
+    image: "https://i.pinimg.com/1200x/c2/94/ba/c294bac3f087bc43afa7830b0dbfd4be.jpg",
     onHand: 40,
     description: "Trứng gà sạch CP giàu dinh dưỡng.",
     salePrice: 33000,
@@ -89,7 +89,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 10,
     name: "Khăn giấy Kleenex 180 tờ",
-    image: "/images/p10.jpg",
+    image: "https://i.pinimg.com/1200x/f7/73/df/f773df575375cf66be9691a83b8900f6.jpg",
     onHand: 70,
     description: "Khăn giấy cao cấp Kleenex.",
     salePrice: 26000,
@@ -100,7 +100,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 11,
     name: "Bánh mì hoa cúc",
-    image: "/images/p11.jpg",
+    image: "https://i.pinimg.com/1200x/49/42/b2/4942b2a8563995f5fd4bd5d26e3d490f.jpg",
     onHand: 25,
     description: "Bánh mì hoa cúc mềm thơm.",
     salePrice: 55000,
@@ -109,7 +109,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 12,
     name: "Sữa chua TH True Yogurt",
-    image: "/images/p12.jpg",
+    image: "https://i.pinimg.com/1200x/88/fb/c7/88fbc79b0145e41cb1124bc3b77e1a94.jpg",
     onHand: 140,
     description: "Sữa chua lên men tự nhiên TH.",
     salePrice: 7000,
@@ -118,7 +118,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 13,
     name: "Nước suối Lavie 500ml",
-    image: "/images/p13.jpg",
+    image: "https://i.pinimg.com/1200x/e5/a8/66/e5a8663cbbf63e0964aa7dfab3f843f8.jpg",
     onHand: 200,
     description: "Nước khoáng thiên nhiên Lavie.",
     salePrice: 5000,
@@ -127,7 +127,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 14,
     name: "Muối i-ốt 500g",
-    image: "/images/p14.jpg",
+    image: "https://i.pinimg.com/736x/67/5b/83/675b834da236fc20c70e13a13f40fc23.jpg",
     onHand: 80,
     description: "Muối tinh i-ốt loại 500g.",
     salePrice: 6000,
@@ -136,7 +136,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 15,
     name: "Tương ớt Cholimex",
-    image: "/images/p15.jpg",
+    image: "https://i.pinimg.com/1200x/f6/ec/5d/f6ec5d96bf92151f2b21b7f085aeb6ef.jpg",
     onHand: 95,
     description: "Tương ớt ăn liền Cholimex.",
     salePrice: 11000,
@@ -145,7 +145,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 16,
     name: "Bột canh Hải Châu",
-    image: "/images/p16.jpg",
+    image: "https://i.pinimg.com/1200x/3b/ed/b3/3bedb386e7deb68cc26397f26eb4dc43.jpg",
     onHand: 120,
     description: "Bột canh hương vị truyền thống.",
     salePrice: 8000,
@@ -154,7 +154,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 17,
     name: "Xúc xích Đức Việt",
-    image: "/images/p17.jpg",
+    image: "https://i.pinimg.com/736x/32/0b/96/320b96c63b2f6b3caf5edb421b5bc90a.jpg",
     onHand: 50,
     description: "Xúc xích tiệt trùng Đức Việt.",
     salePrice: 32000,
@@ -163,7 +163,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 18,
     name: "Dầu gội Clear Men 650g",
-    image: "/images/p18.jpg",
+    image: "https://i.pinimg.com/1200x/93/44/39/9344397aa17bb754aa1ccbf587b9d677.jpg",
     onHand: 40,
     description: "Dầu gội sạch gàu dành cho nam.",
     salePrice: 125000,
@@ -172,7 +172,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 19,
     name: "Bánh Pía Tân Huê Viên",
-    image: "/images/p19.jpg",
+    image: "https://i.pinimg.com/originals/ae/00/d1/ae00d19511979f650717c19c9e486528.gif",
     onHand: 30,
     description: "Bánh pía sầu riêng đặc sản Sóc Trăng.",
     salePrice: 60000,
@@ -181,7 +181,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 20,
     name: "Khô bò miếng 100g",
-    image: "/images/p20.jpg",
+    image: "https://i.pinimg.com/1200x/41/6f/4e/416f4e6077fe57cb51a12171b7c4c22a.jpg",
     onHand: 20,
     description: "Khô bò đặc sản Tây Nguyên.",
     salePrice: 45000,
@@ -190,7 +190,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 21,
     name: "Sữa đặc Ông Thọ",
-    image: "/images/p21.jpg",
+    image: "https://i.pinimg.com/736x/92/59/70/92597040cf79023d6b120fe1385c697e.jpg",
     onHand: 75,
     description: "Sữa đặc trắng Ông Thọ.",
     salePrice: 25000,
@@ -199,7 +199,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 22,
     name: "Hạt nêm Knorr 400g",
-    image: "/images/p22.jpg",
+    image: "https://i.pinimg.com/1200x/56/01/2d/56012d7260d30bec97f8eea089d08dcc.jpg",
     onHand: 80,
     description: "Hạt nêm thịt thăn, xương ống và tủy.",
     salePrice: 38000,
@@ -208,7 +208,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 23,
     name: "Nước tương Maggi",
-    image: "/images/p23.jpg",
+    image: "https://i.pinimg.com/736x/4f/28/0f/4f280f1ac49734e4e74a4f48b8ff3e38.jpg",
     onHand: 90,
     description: "Nước tương đậm đà hương vị.",
     salePrice: 15000,
@@ -217,7 +217,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 24,
     name: "Phô mai Con Bò Cười",
-    image: "/images/p24.jpg",
+    image: "https://i.pinimg.com/1200x/ea/69/bb/ea69bb787fd8e5c4fc8ec1a01def1aa7.jpg",
     onHand: 50,
     description: "Phô mai tam giác Con Bò Cười.",
     salePrice: 26000,
@@ -226,7 +226,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 25,
     name: "Sữa rửa mặt Cetaphil 500ml",
-    image: "/images/p25.jpg",
+    image: "https://i.pinimg.com/736x/91/29/56/912956417bc7923464856239f492fc48.jpg",
     onHand: 35,
     description: "Sữa rửa mặt dịu nhẹ Cetaphil.",
     salePrice: 285000,
@@ -235,7 +235,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 26,
     name: "Mặt nạ Senka",
-    image: "/images/p26.jpg",
+    image: "https://i.pinimg.com/736x/bb/48/e1/bb48e1f66f1387b31a0e41765edf519c.jpg",
     onHand: 100,
     description: "Mặt nạ dưỡng da Senka.",
     salePrice: 12000,
@@ -244,7 +244,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 27,
     name: "Giấy vệ sinh Bless You",
-    image: "/images/p27.jpg",
+    image: "https://i.pinimg.com/736x/86/02/ed/8602eda22786591f9ee5c2d78067a034.jpg",
     onHand: 110,
     description: "Giấy vệ sinh 3 lớp cao cấp.",
     salePrice: 42000,
@@ -253,7 +253,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 28,
     name: "Cafe G7 3in1",
-    image: "/images/p28.jpg",
+    image: "https://i.pinimg.com/736x/56/db/15/56db15a52dab0c778e1221329c742c63.jpg",
     onHand: 130,
     description: "Cafe hòa tan G7 3in1.",
     salePrice: 48000,
@@ -262,7 +262,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 29,
     name: "Thịt nguội CP 200g",
-    image: "/images/p29.jpg",
+    image: "https://i.pinimg.com/1200x/8b/ce/a1/8bcea19f74fa1862eae50ca1c05f6eb7.jpg",
     onHand: 25,
     description: "Thịt nguội heo CP đóng gói.",
     salePrice: 45000,
@@ -271,7 +271,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 30,
     name: "Bia Heineken lon",
-    image: "/images/p30.jpg",
+    image: "https://i.pinimg.com/1200x/4a/b4/83/4ab48355a501e2be6a6067bc3db17e31.jpg",
     onHand: 150,
     description: "Bia Heineken lon 330ml.",
     salePrice: 18000,
@@ -280,7 +280,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 31,
     name: "Bánh gạo One One",
-    image: "/images/p31.jpg",
+    image: "https://i.pinimg.com/1200x/70/15/00/701500e3748b590773243e90045a5b65.jpg",
     onHand: 60,
     description: "Bánh gạo giòn One One.",
     salePrice: 17000,
@@ -289,7 +289,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 32,
     name: "Hạt điều rang muối 200g",
-    image: "/images/p32.jpg",
+    image: "https://i.pinimg.com/736x/f5/9c/17/f59c172074d2c6fd519d61b533354816.jpg",
     onHand: 25,
     description: "Hạt điều Bình Phước loại 1.",
     salePrice: 60000,
@@ -298,7 +298,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 33,
     name: "Mật ong hoa nhãn 500ml",
-    image: "/images/p33.jpg",
+    image: "https://i.pinimg.com/1200x/1f/87/91/1f8791cd1dfc8755f5c5ab8e75f11bd8.jpg",
     onHand: 30,
     description: "Mật ong nguyên chất.",
     salePrice: 85000,
@@ -307,7 +307,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 34,
     name: "Chà bông heo 100g",
-    image: "/images/p34.jpg",
+    image: "https://i.pinimg.com/736x/ad/c5/ef/adc5ef944e3626dd137cd48d674a0038.jpg",
     onHand: 40,
     description: "Ruốc heo sấy khô.",
     salePrice: 35000,
@@ -316,7 +316,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 35,
     name: "Bánh quy Cosy",
-    image: "/images/p35.jpg",
+    image: "https://i.pinimg.com/1200x/6b/0c/4f/6b0c4fd04d14878aa344111d7bdadc68.jpg",
     onHand: 75,
     description: "Bánh quy bơ Cosy.",
     salePrice: 26000,
@@ -325,7 +325,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 36,
     name: "Nước ép táo Twister",
-    image: "/images/p36.jpg",
+    image: "https://i.pinimg.com/1200x/76/27/85/762785b0bbb477ca939ab60f8418a914.jpg",
     onHand: 90,
     description: "Nước ép trái cây Twister.",
     salePrice: 12000,
@@ -334,7 +334,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 37,
     name: "Xịt khử mùi Romano 150ml",
-    image: "/images/p37.jpg",
+    image: "https://i.pinimg.com/1200x/89/26/7f/89267f0a43554f842ef8d1a6e9295bc7.jpg",
     onHand: 42,
     description: "Xịt khử mùi dành cho nam.",
     salePrice: 78000,
@@ -343,7 +343,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 38,
     name: "Nước rửa chén Sunlight",
-    image: "/images/p38.jpg",
+    image: "https://i.pinimg.com/736x/4f/de/62/4fde62eb0b6b1c9ceb1048a27055fdec.jpg",
     onHand: 120,
     description: "Nước rửa chén Sunlight hương chanh.",
     salePrice: 21000,
@@ -352,7 +352,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 39,
     name: "Bột giặt Omo 3kg",
-    image: "/images/p39.jpg",
+    image: "https://i.pinimg.com/1200x/a9/17/c7/a917c749eb5e6c6c69ee78a7c7f26c47.jpg",
     onHand: 65,
     description: "Bột giặt Omo sạch vượt trội.",
     salePrice: 120000,
@@ -361,7 +361,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 40,
     name: "Nước xả Downy 2.3L",
-    image: "/images/p40.jpg",
+    image: "https://i.pinimg.com/1200x/70/75/c4/7075c47c60841722be6a4c8da6afe572.jpg",
     onHand: 50,
     description: "Nước xả vải Downy đậm đặc.",
     salePrice: 145000,
@@ -370,7 +370,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 41,
     name: "Ốc quế kem Merino",
-    image: "/images/p41.jpg",
+    image: "https://i.pinimg.com/736x/fc/1a/3b/fc1a3b1475c06cc936f7731dfa85d9ac.jpg",
     onHand: 80,
     description: "Kem ốc quế Merino.",
     salePrice: 9000,
@@ -379,7 +379,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 42,
     name: "Xúc xích CP 5 cây",
-    image: "/images/p42.jpg",
+    image: "https://i.pinimg.com/1200x/99/ba/db/99badb7623ccc41bc7fa3293dafa9c6e.jpg",
     onHand: 100,
     description: "Xúc xích tiệt trùng CP.",
     salePrice: 27000,
@@ -388,7 +388,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 43,
     name: "Chân gà rút xương",
-    image: "/images/p43.jpg",
+    image: "https://i.pinimg.com/1200x/64/ab/ca/64abca0e3a291e193d01da61b282dfb2.jpg",
     onHand: 35,
     description: "Chân gà ngâm sả ớt.",
     salePrice: 32000,
@@ -397,7 +397,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 44,
     name: "Nem chua Thanh Hóa",
-    image: "/images/p44.jpg",
+    image: "https://i.pinimg.com/1200x/68/a4/be/68a4be9e449cfec10b3bac42b4e12f08.jpg",
     onHand: 25,
     description: "Nem chua đặc sản Thanh Hóa.",
     salePrice: 55000,
@@ -406,7 +406,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 45,
     name: "Sầu riêng Ri6 1kg",
-    image: "/images/p45.jpg",
+    image: "https://i.pinimg.com/736x/1d/57/a1/1d57a1133617abf1a2a58193c4b6cc40.jpg",
     onHand: 30,
     description: "Sầu riêng Ri6 tươi ngon.",
     salePrice: 120000,
@@ -415,7 +415,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 46,
     name: "Chuối già Nam Mỹ 1kg",
-    image: "/images/p46.jpg",
+    image: "https://i.pinimg.com/736x/63/ea/76/63ea764baa3551cc7a3c6a3ac7b38824.jpg",
     onHand: 45,
     description: "Chuối tươi già Nam Mỹ.",
     salePrice: 28000,
@@ -424,7 +424,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 47,
     name: "Khoai tây Đà Lạt 1kg",
-    image: "/images/p47.jpg",
+    image: "https://i.pinimg.com/736x/3e/64/fb/3e64fbeb42a50697b278a81878a8d4d7.jpg",
     onHand: 48,
     description: "Khoai tây tươi Đà Lạt.",
     salePrice: 30000,
@@ -433,7 +433,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 48,
     name: "Bắp cải xanh 1kg",
-    image: "/images/p48.jpg",
+    image: "https://i.pinimg.com/1200x/0f/35/2a/0f352aaa89b3bba0879f18ed1b476bbe.jpg",
     onHand: 43,
     description: "Bắp cải tươi Đà Lạt.",
     salePrice: 18000,
@@ -442,7 +442,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 49,
     name: "Hành tây 1kg",
-    image: "/images/p49.jpg",
+    image: "https://i.pinimg.com/1200x/8a/a2/11/8aa211fa291a74e48561667a573e6a7b.jpg",
     onHand: 60,
     description: "Hành tây nhập khẩu.",
     salePrice: 24000,
@@ -451,7 +451,7 @@ export const PRODUCTS: ProductType[] = [
   {
     id: 50,
     name: "Ớt chuông 1kg",
-    image: "/images/p50.jpg",
+    image: "https://i.pinimg.com/1200x/b7/21/ba/b721ba2c701cbff9fd76d24c7bc089e1.jpg",
     onHand: 52,
     description: "Ớt chuông đỏ xanh vàng.",
     salePrice: 45000,
